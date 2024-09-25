@@ -2,13 +2,13 @@ import React, { FC } from 'react';
 
 interface RelacionesSocialesProps {
     temperamento: string;
-    setTemperamento: (value: string) => void;
+    setTemperamento: React.Dispatch<React.SetStateAction<string>>;  
     voluntadInteraccion: string;
-    setVoluntadInteraccion: (value: string) => void;
+    setVoluntadInteraccion: React.Dispatch<React.SetStateAction<string>>;  
     necesidadesEmocionales: string;
-    setNecesidadesEmocionales: (value: string) => void;
+    setNecesidadesEmocionales: React.Dispatch<React.SetStateAction<string>>;  
     confianzaPersonas: string;
-    setConfianzaPersonas: (value: string) => void;
+    setConfianzaPersonas: React.Dispatch<React.SetStateAction<string>>;  
 }
 
 const RelacionesSociales: FC<RelacionesSocialesProps> = ({

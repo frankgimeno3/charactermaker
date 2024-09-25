@@ -2,17 +2,17 @@ import React, { FC } from 'react';
 
 interface EgoProps {
     alineamientoObjetivos: string;
-    setAlineamientoObjetivos: (value: string) => void;
+    setAlineamientoObjetivos: React.Dispatch<React.SetStateAction<string>>;  
     aspiraciones: string;
-    setAspiraciones: (value: string) => void;
+    setAspiraciones: React.Dispatch<React.SetStateAction<string>>;  
     maquiavelismo: string;
-    setMaquiavelismo: (value: string) => void;
+    setMaquiavelismo: React.Dispatch<React.SetStateAction<string>>;  
     lealtad: string;
-    setLealtad: (value: string) => void;
+    setLealtad: React.Dispatch<React.SetStateAction<string>>;  
     humildad: string;
-    setHumildad: (value: string) => void;
+    setHumildad: React.Dispatch<React.SetStateAction<string>>;  
     actitudVictoria: string;
-    setActitudVictoria: (value: string) => void;
+    setActitudVictoria: React.Dispatch<React.SetStateAction<string>>;  
 }
 
 const Ego: FC<EgoProps> = ({

@@ -1,18 +1,18 @@
 import React, { FC } from 'react';
 
 interface RasgosIdentitariosProps {
-  faccionNatal:any
-setFaccionNatal:any
-anioNacimiento:any
-setAnioNacimiento:any
-lugarNatal:any
-setLugarNatal:any
-subFaccionActual:any
-setSubFaccionActual:any
-clase:any
-setClase:any
-orientacionSexual:any
-setOrientacionSexual:any;
+  faccionNatal:string
+setFaccionNatal:React.Dispatch<React.SetStateAction<string>>;  
+anioNacimiento:string
+setAnioNacimiento:React.Dispatch<React.SetStateAction<string>>;  
+lugarNatal:string
+setLugarNatal:React.Dispatch<React.SetStateAction<string>>;  
+subFaccionActual:string
+setSubFaccionActual:React.Dispatch<React.SetStateAction<string>>;  
+clase:string
+setClase:React.Dispatch<React.SetStateAction<string>>;  
+orientacionSexual:string
+setOrientacionSexual:React.Dispatch<React.SetStateAction<string>>;  
 }
 
 const RasgosIdentitarios: FC<RasgosIdentitariosProps> = ({ faccionNatal, setFaccionNatal, anioNacimiento, setAnioNacimiento, 

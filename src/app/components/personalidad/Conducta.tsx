@@ -1,16 +1,16 @@
 import React, { FC } from 'react';
 
 interface ConductaProps {
-    orden: string; // Asumimos que orden es un string para simplificar
-    setOrden: (value: string) => void;
+    orden: string; 
+    setOrden: React.Dispatch<React.SetStateAction<string>>;  
     tenacidad: string;
-    setTenacidad: (value: string) => void;
+    setTenacidad: React.Dispatch<React.SetStateAction<string>>;  
     fobias: string;
-    setFobias: (value: string) => void;
+    setFobias: React.Dispatch<React.SetStateAction<string>>;  
     abstraccion: string;
-    setAbstraccion: (value: string) => void;
+    setAbstraccion: React.Dispatch<React.SetStateAction<string>>;  
     politica: string;
-    setPolitica: (value: string) => void;
+    setPolitica: React.Dispatch<React.SetStateAction<string>>;  
 }
 
 const Conducta: FC<ConductaProps> = ({
