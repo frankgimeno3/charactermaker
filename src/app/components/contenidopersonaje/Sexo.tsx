@@ -7,7 +7,7 @@ interface SexoProps {
 
 const Sexo: FC<SexoProps> = ({ sexo, setSexo }) => {
     const [isOpen, setIsOpen] = useState(false);
-    const opciones = ['Masculino', 'Femenino',];
+    const opciones = ['masculino', 'femenino',];
 
 
     return (

@@ -8,7 +8,7 @@ interface RazaProps {
 const Raza: FC<RazaProps> = ({ raza, setRaza }) => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const opciones = ['Humano', 'Dwargul', 'Orgruck', 'Silvano'];
+    const opciones = ['humano', 'dwargul', 'orgruck', 'silvano'];
 
     return (
         <div className="relative w-full">

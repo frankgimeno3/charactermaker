@@ -7,7 +7,7 @@ interface EdadProps {
 
 const Edad: FC<EdadProps> = ({ edad, setEdad }) => {
     const [isOpen, setIsOpen] = useState(false);
-    const opciones = ['Adolescente', 'Adulto joven', 'Adulto medio', 'Adulto maduro', 'Anciano'];
+    const opciones = ['adolescente', 'adulto joven', 'adulto medio', 'adulto maduro', 'anciano'];
 
 
     return (
