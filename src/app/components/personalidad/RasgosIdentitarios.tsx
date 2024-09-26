@@ -146,31 +146,31 @@ const RasgosIdentitarios: FC<RasgosIdentitariosProps> = ({
       <div className='flex flex-row py-2'>
         <p className='w-60'>Orientación sexual</p>
         <button
-          className={`mx-2 text-sm bg-white ${orientacionSexual === 'heterosexual' ? 'bg-opacity-10' : 'bg-gradient-to-r from-transparent to-blue-950 opacity-80'} hover:bg-gray-300 hover:bg-opacity-20 border border-gray-100 px-5 rounded shadow text-gray-100`}
+          className={`mx-2 text-sm bg-white ${orientacionSexual === 'heterosexual' ? 'bg-opacity-10' : 'bg-gradient-to-r from-truansparent to-blue-950 opacity-80'} border border-gray-100 px-5 rounded shadow text-gray-100`}
           onClick={() => setOrientacionSexual('heterosexual')}
         >
           Heterosexual
         </button>
         <button
-          className={`mx-2 text-sm bg-white ${orientacionSexual === 'asexual' ? 'bg-opacity-10' : 'bg-gradient-to-r from-transparent to-blue-950 opacity-80'} hover:bg-gray-300 hover:bg-opacity-20 border border-gray-100 px-5 rounded shadow text-gray-100`}
+          className={`mx-2 text-sm bg-white ${orientacionSexual === 'asexual' ? 'bg-opacity-10' : 'bg-gradient-to-r from-truansparent to-blue-950 opacity-80'} border border-gray-100 px-5 rounded shadow text-gray-100`}
           onClick={() => setOrientacionSexual('asexual')}
         >
           Asexual
         </button>
         <button
-          className={`mx-2 text-sm bg-white ${orientacionSexual === 'homosexual' ? 'bg-opacity-10' : 'bg-gradient-to-r from-transparent to-blue-950 opacity-80'} hover:bg-gray-300 hover:bg-opacity-20 border border-gray-100 px-5 rounded shadow text-gray-100`}
+          className={`mx-2 text-sm bg-white ${orientacionSexual === 'homosexual' ? 'bg-opacity-10' : 'bg-gradient-to-r from-truansparent to-blue-950 opacity-80'} border border-gray-100 px-5 rounded shadow text-gray-100`}
           onClick={() => setOrientacionSexual('homosexual')}
         >
           Homosexual
         </button>
         <button
-          className={`mx-2 text-sm bg-white ${orientacionSexual === 'bisexual' ? 'bg-opacity-10' : 'bg-gradient-to-r from-transparent to-blue-950 opacity-80'} hover:bg-gray-300 hover:bg-opacity-20 border border-gray-100 px-5 rounded shadow text-gray-100`}
+          className={`mx-2 text-sm bg-white ${orientacionSexual === 'bisexual' ? 'bg-opacity-10' : 'bg-gradient-to-r from-truansparent to-blue-950 opacity-80'} border border-gray-100 px-5 rounded shadow text-gray-100`}
           onClick={() => setOrientacionSexual('bisexual')}
         >
           Bisexual
         </button>
         <button
-          className={`mx-2 text-sm bg-white ${orientacionSexual === 'aleatorio' ? 'bg-opacity-10' : 'bg-gradient-to-r from-transparent to-blue-950 opacity-80'} hover:bg-gray-300 hover:bg-opacity-20 border border-gray-100 px-5 rounded shadow text-gray-100`}
+          className={`mx-2 text-sm bg-white ${orientacionSexual === 'aleatorio' ? 'bg-opacity-10' : 'bg-gradient-to-r from-truansparent to-blue-950 opacity-80'} border border-gray-100 px-5 rounded shadow text-gray-100`}
           onClick={() => setOrientacionSexual('aleatorio')}
         >
           Aleatorio

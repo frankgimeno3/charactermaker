@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react';
 
 interface SexoProps {
     sexo: string;
-    setSexo: any;
+    setSexo: React.Dispatch<React.SetStateAction<string>>;  
 }
 
 const Sexo: FC<SexoProps> = ({ sexo, setSexo }) => {

@@ -1,29 +1,29 @@
 import React, { FC } from 'react';
 
 interface ResultadosComponentProps {
-  raza: any;
-  sexo: any;
-  edad: any;
-  faccionNatal: any;
-  anioNacimiento: any;
-  lugarNatal: any;
-  subFaccionActual: any;
-  orientacionSexual: any;
-  temperamento: any;
-  voluntadInteraccion: any;
-  necesidadesEmocionales: any;
-  confianzaPersonas: any;
-  alineamientoObjetivos: any;
-  aspiraciones: any;
-  maquiavelismo: any;
-  lealtad: any;
-  humildad: any;
-  actitudVictoria: any;
-  orden: any;
-  tenacidad: any;
-  fobias: any;
-  abstraccion: any;
-  politica: any;
+  raza: string;
+  sexo: string;
+  edad: string;
+  faccionNatal: string;
+  anioNacimiento: string;
+  lugarNatal: string;
+  subFaccionActual: string;
+  orientacionSexual: string;
+  temperamento: string;
+  voluntadInteraccion: string;
+  necesidadesEmocionales: string;
+  confianzaPersonas: string;
+  alineamientoObjetivos: string;
+  aspiraciones: string;
+  maquiavelismo: string;
+  lealtad: string;
+  humildad: string;
+  actitudVictoria: string;
+  orden: string;
+  tenacidad: string;
+  fobias: string;
+  abstraccion: string;
+  politica: string;
 }
 
 const ResultadosComponent: FC<ResultadosComponentProps> = ({ raza, sexo, edad, faccionNatal, anioNacimiento,

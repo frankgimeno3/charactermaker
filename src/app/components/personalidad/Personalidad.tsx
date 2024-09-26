@@ -61,14 +61,15 @@ const Personalidad: FC<PersonalidadProps> = ({ raza, sexo, edad, faccionNatal,
   lealtad, setLealtad, humildad, setHumildad, actitudVictoria, setActitudVictoria, orden,
   setOrden, tenacidad, setTenacidad, fobias, setFobias, abstraccion, setAbstraccion, politica,
   setPolitica }) => {
-  const handleButtonClick = (setter: React.Dispatch<React.SetStateAction<string | null>>, value: string) => {
-    setter(value);
-  };
+
+  const handleButtonClick = ()=>console.log("patata")
+ 
   return (
     <div className="flex flex-col bg-white bg-opacity-10 border border-gray-500 text-gray-200 my-5 p-5 rounded h-full">
       <div className='flex flex-row justify-between'>
-        <p className='w-60'>Contenido específico</p>
-        <button className='text-sm bg-white bg-opacity-10 hover:bg-gray-300 hover:bg-opacity-20 border border-gray-100 px-5 rounded shadow text-gray-100'>
+        <p className='w-60'>Contenido específico para {raza}, {sexo}, {edad}</p>
+        <button className='text-sm bg-white bg-opacity-10 hover:bg-gray-300 hover:bg-opacity-20 border border-gray-100 px-5 rounded shadow text-gray-100'
+        onClick={()=>handleButtonClick()}>
           Rellenar campos vacíos aleatoriamente
         </button>
       </div>

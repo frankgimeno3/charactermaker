@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react';
 
 interface RazaProps {
     raza: string;
-    setRaza: (value: string) => void;
+    setRaza: React.Dispatch<React.SetStateAction<string>>;  
 }
 
 const Raza: FC<RazaProps> = ({ raza, setRaza }) => {

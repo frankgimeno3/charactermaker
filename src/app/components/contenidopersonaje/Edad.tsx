@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react';
 
 interface EdadProps {
     edad: string;
-    setEdad: any;
+    setEdad: React.Dispatch<React.SetStateAction<string>>;  
 }
 
 const Edad: FC<EdadProps> = ({ edad, setEdad }) => {
